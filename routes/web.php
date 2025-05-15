@@ -160,7 +160,7 @@ Route::middleware(['auth', 'user-access:WRF'])->group(function () {
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
-
+//normal user
 
 //NOTIFICATIONS
 
